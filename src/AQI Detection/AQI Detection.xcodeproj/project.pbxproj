@@ -16,8 +16,10 @@
 		B482998A1B6DFD87006A4784 /* AQI_DetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48299891B6DFD87006A4784 /* AQI_DetectionTests.m */; };
 		B48299991B6E0115006A4784 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299981B6E0115006A4784 /* libz.dylib */; };
 		B482999B1B6E0125006A4784 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */; };
-		B48299A21B6E138C006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299A11B6E138C006A4784 /* DJISDK.framework */; };
 		B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */; };
+		B48299A81B6E1DE1006A4784 /* LOGO(Black-and-White).png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */; };
+		B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */; };
+		B48299B01B6E21EB006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299AF1B6E21EB006A4784 /* DJISDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,10 @@
 		B48299891B6DFD87006A4784 /* AQI_DetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQI_DetectionTests.m; sourceTree = "<group>"; };
 		B48299981B6E0115006A4784 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
-		B48299A11B6E138C006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DJISDK.framework; sourceTree = "<group>"; };
 		B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone launchscreen.png"; sourceTree = "<group>"; };
+		B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White).png"; sourceTree = "<group>"; };
+		B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White) 透明.png"; sourceTree = "<group>"; };
+		B48299AF1B6E21EB006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../../../../src/DJISDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48299A21B6E138C006A4784 /* DJISDK.framework in Frameworks */,
+				B48299B01B6E21EB006A4784 /* DJISDK.framework in Frameworks */,
 				B482999B1B6E0125006A4784 /* libstdc++.6.0.9.dylib in Frameworks */,
 				B48299991B6E0115006A4784 /* libz.dylib in Frameworks */,
 			);
@@ -100,6 +104,8 @@
 				B48299751B6DFD87006A4784 /* ViewController.m */,
 				B48299771B6DFD87006A4784 /* Main.storyboard */,
 				B482997A1B6DFD87006A4784 /* Images.xcassets */,
+				B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */,
+				B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */,
 				B482997C1B6DFD87006A4784 /* LaunchScreen.xib */,
 				B482996D1B6DFD87006A4784 /* Supporting Files */,
 			);
@@ -135,9 +141,9 @@
 		B48299971B6DFEAA006A4784 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B48299AF1B6E21EB006A4784 /* DJISDK.framework */,
 				B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */,
 				B48299981B6E0115006A4784 /* libz.dylib */,
-				B48299A11B6E138C006A4784 /* DJISDK.framework */,
 			);
 			name = Frameworks;
 			path = "AQI Detection.xcodeproj";
@@ -225,8 +231,10 @@
 			files = (
 				B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */,
 				B48299791B6DFD87006A4784 /* Main.storyboard in Resources */,
+				B48299A81B6E1DE1006A4784 /* LOGO(Black-and-White).png in Resources */,
 				B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */,
 				B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */,
+				B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +388,9 @@
 					Detection,
 					"$(PROJECT_DIR)/AQI",
 					Detection.xcodeproj,
+					"$(PROJECT_DIR)/AQI",
+					Detection.xcodeproj,
+					/Users/michaelzhang/Desktop/src,
 				);
 				INFOPLIST_FILE = "AQI Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -397,6 +408,9 @@
 					Detection,
 					"$(PROJECT_DIR)/AQI",
 					Detection.xcodeproj,
+					"$(PROJECT_DIR)/AQI",
+					Detection.xcodeproj,
+					/Users/michaelzhang/Desktop/src,
 				);
 				INFOPLIST_FILE = "AQI Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

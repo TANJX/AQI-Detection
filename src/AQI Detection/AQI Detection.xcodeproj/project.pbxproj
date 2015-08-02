@@ -14,9 +14,10 @@
 		B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B482997A1B6DFD87006A4784 /* Images.xcassets */; };
 		B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B482997C1B6DFD87006A4784 /* LaunchScreen.xib */; };
 		B482998A1B6DFD87006A4784 /* AQI_DetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48299891B6DFD87006A4784 /* AQI_DetectionTests.m */; };
-		B48299941B6DFE64006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299931B6DFE64006A4784 /* DJISDK.framework */; };
 		B48299991B6E0115006A4784 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299981B6E0115006A4784 /* libz.dylib */; };
 		B482999B1B6E0125006A4784 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */; };
+		B48299A21B6E138C006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299A11B6E138C006A4784 /* DJISDK.framework */; };
+		B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +44,10 @@
 		B48299831B6DFD87006A4784 /* AQI DetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AQI DetectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48299881B6DFD87006A4784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48299891B6DFD87006A4784 /* AQI_DetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQI_DetectionTests.m; sourceTree = "<group>"; };
-		B48299931B6DFE64006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = "../AQI Detection/DJISDK.framework"; sourceTree = "<group>"; };
 		B48299981B6E0115006A4784 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		B48299A11B6E138C006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DJISDK.framework; sourceTree = "<group>"; };
+		B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone launchscreen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48299A21B6E138C006A4784 /* DJISDK.framework in Frameworks */,
 				B482999B1B6E0125006A4784 /* libstdc++.6.0.9.dylib in Frameworks */,
 				B48299991B6E0115006A4784 /* libz.dylib in Frameworks */,
-				B48299941B6DFE64006A4784 /* DJISDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				B48299711B6DFD87006A4784 /* AppDelegate.h */,
+				B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */,
 				B48299721B6DFD87006A4784 /* AppDelegate.mm */,
 				B48299741B6DFD87006A4784 /* ViewController.h */,
 				B48299751B6DFD87006A4784 /* ViewController.m */,
@@ -134,7 +137,7 @@
 			children = (
 				B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */,
 				B48299981B6E0115006A4784 /* libz.dylib */,
-				B48299931B6DFE64006A4784 /* DJISDK.framework */,
+				B48299A11B6E138C006A4784 /* DJISDK.framework */,
 			);
 			name = Frameworks;
 			path = "AQI Detection.xcodeproj";
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */,
 				B48299791B6DFD87006A4784 /* Main.storyboard in Resources */,
 				B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */,
 				B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */,
@@ -374,6 +378,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AQI",
 					Detection,
+					"$(PROJECT_DIR)/AQI",
+					Detection.xcodeproj,
 				);
 				INFOPLIST_FILE = "AQI Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -389,6 +395,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AQI",
 					Detection,
+					"$(PROJECT_DIR)/AQI",
+					Detection.xcodeproj,
 				);
 				INFOPLIST_FILE = "AQI Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -449,6 +457,7 @@
 				B482998F1B6DFD87006A4784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48299901B6DFD87006A4784 /* Build configuration list for PBXNativeTarget "AQI DetectionTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +466,7 @@
 				B48299921B6DFD87006A4784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

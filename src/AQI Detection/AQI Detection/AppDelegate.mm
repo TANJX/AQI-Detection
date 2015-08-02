@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <DJISDK/DJISDK.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<DJIAppManagerDelegate>
 
 @end
 
@@ -18,7 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *appKey = @"74f06db6f69cc985771dc497";
+    [DJIAppManager registerApp:appKey withDelegate:self];
     return YES;
+}
+
+#pragma mark DJIAppManagerDelegate Method
+-(void)appManagerDidRegisterWithError:(int)error
+{
+    NSString* message = @"Register App Successed!  Yeah !!!!!! WOw";
+    if (error != RegisterSuccess) {
+        message = @"Register App Failed!Holy shit!!!";
+    }else
+    {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"RegisterAppSuccess" object:nil];
+    }
+    
+    UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Register App" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -20,6 +20,7 @@
 		B48299A81B6E1DE1006A4784 /* LOGO(Black-and-White).png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */; };
 		B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */; };
 		B48299B01B6E21EB006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299AF1B6E21EB006A4784 /* DJISDK.framework */; };
+		B48299B21B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White).png"; sourceTree = "<group>"; };
 		B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White) 透明.png"; sourceTree = "<group>"; };
 		B48299AF1B6E21EB006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../../../../src/DJISDK.framework; sourceTree = "<group>"; };
+		B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fa1078eea51362f3d6af655a72081327.jpg; path = ../../../../fa1078eea51362f3d6af655a72081327.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B48299721B6DFD87006A4784 /* AppDelegate.mm */,
 				B48299741B6DFD87006A4784 /* ViewController.h */,
 				B48299751B6DFD87006A4784 /* ViewController.m */,
+				B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */,
 				B48299771B6DFD87006A4784 /* Main.storyboard */,
 				B482997A1B6DFD87006A4784 /* Images.xcassets */,
 				B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */,
@@ -232,6 +235,7 @@
 				B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */,
 				B48299791B6DFD87006A4784 /* Main.storyboard in Resources */,
 				B48299A81B6E1DE1006A4784 /* LOGO(Black-and-White).png in Resources */,
+				B48299B21B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg in Resources */,
 				B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */,
 				B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */,
 				B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */,
@@ -402,6 +406,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AQI",

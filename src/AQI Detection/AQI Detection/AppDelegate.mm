@@ -26,7 +26,7 @@
 #pragma mark DJIAppManagerDelegate Method
 -(void)appManagerDidRegisterWithError:(int)error
 {
-    NSString* message = @"Register App Successed!  Yeah !!!!!! WOw";
+    NSString* message = @"Register App Successed!";
     if (error != RegisterSuccess) {
         message = @"Register App Failed!Holy shit!!!";
     }else

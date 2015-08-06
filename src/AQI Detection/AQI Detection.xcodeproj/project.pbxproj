@@ -21,6 +21,12 @@
 		B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */ = {isa = PBXBuildFile; fileRef = B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */; };
 		B48299B01B6E21EB006A4784 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48299AF1B6E21EB006A4784 /* DJISDK.framework */; };
 		B48299B21B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */; };
+		B48299B41B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */; };
+		B48299B61B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B51B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */; };
+		B48299B81B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B71B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg */; };
+		B48299BA1B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299B91B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg */; };
+		B48299BC1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299BB1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg */; };
+		B48299BE1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White) 透明.png"; sourceTree = "<group>"; };
 		B48299AF1B6E21EB006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../../../../src/DJISDK.framework; sourceTree = "<group>"; };
 		B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fa1078eea51362f3d6af655a72081327.jpg; path = ../../../../fa1078eea51362f3d6af655a72081327.jpg; sourceTree = "<group>"; };
+		B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2765da53cc080d4db2f90224d8a62d86.jpg; path = ../../../../2765da53cc080d4db2f90224d8a62d86.jpg; sourceTree = "<group>"; };
+		B48299B51B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2765da53cc080d4db2f90224d8a62d86.jpg; path = ../../../../2765da53cc080d4db2f90224d8a62d86.jpg; sourceTree = "<group>"; };
+		B48299B71B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 260eb8963b7933549285ee6626c05a45.jpeg; path = ../../../../260eb8963b7933549285ee6626c05a45.jpeg; sourceTree = "<group>"; };
+		B48299B91B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = c817674b97cdbd41a9377fd7396dd35e.jpg; path = ../../../../c817674b97cdbd41a9377fd7396dd35e.jpg; sourceTree = "<group>"; };
+		B48299BB1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image 8-6-15 at 11.33 AM.jpg"; path = "../../../../Image 8-6-15 at 11.33 AM.jpg"; sourceTree = "<group>"; };
+		B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image 8-6-15 at 11.33 AM.jpg"; path = "../../../../Image 8-6-15 at 11.33 AM.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +117,13 @@
 				B48299741B6DFD87006A4784 /* ViewController.h */,
 				B48299751B6DFD87006A4784 /* ViewController.m */,
 				B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */,
+				B48299BB1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
 				B48299771B6DFD87006A4784 /* Main.storyboard */,
+				B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
+				B48299B51B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
+				B48299B71B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg */,
+				B48299B91B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg */,
+				B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
 				B482997A1B6DFD87006A4784 /* Images.xcassets */,
 				B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */,
 				B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */,
@@ -232,13 +250,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48299B61B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg in Resources */,
+				B48299B41B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg in Resources */,
 				B48299A41B6E13C2006A4784 /* iPhone launchscreen.png in Resources */,
 				B48299791B6DFD87006A4784 /* Main.storyboard in Resources */,
 				B48299A81B6E1DE1006A4784 /* LOGO(Black-and-White).png in Resources */,
+				B48299BC1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */,
+				B48299BA1B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg in Resources */,
+				B48299B81B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg in Resources */,
 				B48299B21B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg in Resources */,
 				B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */,
 				B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */,
 				B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */,
+				B48299BE1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

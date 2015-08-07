@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F45E1CF4-E8B4-435F-903D-E698A253918B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AQI Detection</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7DF90D8C0650BE80E973C50947A20DA7B6007F2B</key>
 		<string>https://github.com/TANJX/AQI-Detection.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/AQI Detection/AQI Detection.xcodeproj</string>
+	<string>src/AQI Detection/AQI Detection.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7DF90D8C0650BE80E973C50947A20DA7B6007F2B</key>

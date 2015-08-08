@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "container:"
-      name = "thirdParty">
-   </Group>
+   <FileRef
+      location = "group:../AQI Detection/DJICameraViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../AQI Detection/DJICameraViewController.m">
+   </FileRef>
    <FileRef
       location = "self:AQI Detection.xcodeproj">
    </FileRef>

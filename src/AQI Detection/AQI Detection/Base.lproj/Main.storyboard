@@ -41,7 +41,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Introduction" id="3NC-y2-Nkq"/>
+                    <navigationItem key="navigationItem" title="Introduction" id="3NC-y2-Nkq">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="bJj-C9-iuC">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" id="uEv-0i-1kg">
+                                <rect key="frame" x="16" y="7" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hz-1f-vhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -316,7 +323,7 @@
                         <barButtonItem key="backBarButtonItem" title="Done" id="pMQ-ys-hyl"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="ytI-cX-CY5">
                             <connections>
-                                <segue destination="Ywc-sk-Xce" kind="show" id="Gu6-xf-Cp2"/>
+                                <segue destination="QTb-Zz-p6s" kind="show" id="Gu6-xf-Cp2"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -350,20 +357,22 @@
         <scene sceneID="60N-ci-agI">
             <objects>
                 <viewController id="Ywc-sk-Xce" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hSc-KZ-yJk"/>
-                        <viewControllerLayoutGuide type="bottom" id="QIC-6D-kwR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JOJ-sV-o9G">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3289.jpg" id="waP-9W-7jO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <navigationItem key="navigationItem" id="BFY-4R-2gJ">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="uUE-3o-rEz">
+                            <connections>
+                                <segue destination="vxr-M9-kAQ" kind="show" id="Jrd-TG-Ztr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xb5-2B-bgC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4610.5" y="-981.5"/>
+            <point key="canvasLocation" x="4610.5" y="-160.5"/>
         </scene>
         <!--  Copyright (c) 2015 Windfall. -->
         <scene sceneID="GUl-T5-emV">
@@ -468,7 +477,7 @@
         <scene sceneID="4NM-Tt-Tuf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q47-zD-nTO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="history" id="BuW-s4-Nkn"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="BuW-s4-Nkn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LQs-YN-lDd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -668,10 +677,29 @@
             </objects>
             <point key="canvasLocation" x="3479.5" y="-160.5"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MMP-5P-aSx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QTb-Zz-p6s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jio-X1-RLc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ywc-sk-Xce" kind="relationship" relationship="rootViewController" id="Jah-wM-fpE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xtN-5T-eTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4610.5" y="-981.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="260eb8963b7933549285ee6626c05a45.jpeg" width="1200" height="2130"/>
         <image name="IMG_3263.jpg" width="877" height="1159"/>
+        <image name="IMG_3289.jpg" width="1800" height="2546"/>
         <image name="Image 8-6-15 at 11.33 AM.jpg" width="247" height="24"/>
         <image name="LOGO(Black-and-White).png" width="2126" height="2126"/>
         <image name="c505991a4c577ffcc9aa9df25c6df525.jpg" width="600" height="900"/>

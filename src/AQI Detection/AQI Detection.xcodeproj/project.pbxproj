@@ -29,6 +29,8 @@
 		B48299BE1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */; };
 		B48299C01B735A65006A4784 /* IMG_3263.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299BF1B735A65006A4784 /* IMG_3263.jpg */; };
 		B48299C21B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48299C11B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg */; };
+		B4FB0FD81B74A37B00260BDC /* IMG_3289.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4FB0FD71B74A37B00260BDC /* IMG_3289.jpg */; };
+		B4FB0FDC1B75B88000260BDC /* VideoPreviewer in Resources */ = {isa = PBXBuildFile; fileRef = B4FB0FDB1B75B88000260BDC /* VideoPreviewer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +59,9 @@
 		B48299891B6DFD87006A4784 /* AQI_DetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQI_DetectionTests.m; sourceTree = "<group>"; };
 		B48299981B6E0115006A4784 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
-		B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone launchscreen.png"; sourceTree = "<group>"; };
-		B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White).png"; sourceTree = "<group>"; };
-		B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO(Black-and-White) 透明.png"; sourceTree = "<group>"; };
+		B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone launchscreen.png"; path = "../AQI Detection/iPhone launchscreen.png"; sourceTree = "<group>"; };
+		B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO(Black-and-White).png"; path = "../AQI Detection/LOGO(Black-and-White).png"; sourceTree = "<group>"; };
+		B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO(Black-and-White) 透明.png"; path = "../AQI Detection/LOGO(Black-and-White) 透明.png"; sourceTree = "<group>"; };
 		B48299AF1B6E21EB006A4784 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../../../../src/DJISDK.framework; sourceTree = "<group>"; };
 		B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fa1078eea51362f3d6af655a72081327.jpg; path = ../../../../fa1078eea51362f3d6af655a72081327.jpg; sourceTree = "<group>"; };
 		B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2765da53cc080d4db2f90224d8a62d86.jpg; path = ../../../../2765da53cc080d4db2f90224d8a62d86.jpg; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image 8-6-15 at 11.33 AM.jpg"; path = "../../../../Image 8-6-15 at 11.33 AM.jpg"; sourceTree = "<group>"; };
 		B48299BF1B735A65006A4784 /* IMG_3263.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3263.jpg; path = ../../../../IMG_3263.jpg; sourceTree = "<group>"; };
 		B48299C11B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = c505991a4c577ffcc9aa9df25c6df525.jpg; path = ../../../../c505991a4c577ffcc9aa9df25c6df525.jpg; sourceTree = "<group>"; };
+		B4FB0FD71B74A37B00260BDC /* IMG_3289.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3289.jpg; path = ../../../../IMG_3289.jpg; sourceTree = "<group>"; };
+		B4FB0FDB1B75B88000260BDC /* VideoPreviewer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = VideoPreviewer; path = "../../../../DJI-SDK-iOS-V2.0.0/Demo/DJISdkDemo/DJISdkDemo/VideoPreviewer"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,6 @@
 			children = (
 				B482996C1B6DFD87006A4784 /* AQI Detection */,
 				B48299861B6DFD87006A4784 /* AQI DetectionTests */,
-				B482996B1B6DFD87006A4784 /* Products */,
 				B48299971B6DFEAA006A4784 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -110,29 +113,20 @@
 				B48299831B6DFD87006A4784 /* AQI DetectionTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B482996C1B6DFD87006A4784 /* AQI Detection */ = {
 			isa = PBXGroup;
 			children = (
 				B48299711B6DFD87006A4784 /* AppDelegate.h */,
-				B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */,
 				B48299721B6DFD87006A4784 /* AppDelegate.mm */,
 				B48299741B6DFD87006A4784 /* ViewController.h */,
 				B48299751B6DFD87006A4784 /* ViewController.m */,
-				B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */,
-				B48299BB1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
-				B48299C11B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg */,
-				B48299771B6DFD87006A4784 /* Main.storyboard */,
-				B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
-				B48299B51B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
-				B48299B71B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg */,
-				B48299B91B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg */,
-				B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
-				B48299BF1B735A65006A4784 /* IMG_3263.jpg */,
 				B482997A1B6DFD87006A4784 /* Images.xcassets */,
-				B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */,
-				B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */,
+				B4FB0FDA1B75B81000260BDC /* thirdParty */,
+				B4FB0FD91B75B7A500260BDC /* ImageResource */,
+				B48299771B6DFD87006A4784 /* Main.storyboard */,
 				B482997C1B6DFD87006A4784 /* LaunchScreen.xib */,
 				B482996D1B6DFD87006A4784 /* Supporting Files */,
 			);
@@ -171,9 +165,40 @@
 				B48299AF1B6E21EB006A4784 /* DJISDK.framework */,
 				B482999A1B6E0125006A4784 /* libstdc++.6.0.9.dylib */,
 				B48299981B6E0115006A4784 /* libz.dylib */,
+				B482996B1B6DFD87006A4784 /* Products */,
 			);
 			name = Frameworks;
 			path = "AQI Detection.xcodeproj";
+			sourceTree = "<group>";
+		};
+		B4FB0FD91B75B7A500260BDC /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				B48299B11B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg */,
+				B48299BD1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
+				B4FB0FD71B74A37B00260BDC /* IMG_3289.jpg */,
+				B48299A31B6E13C2006A4784 /* iPhone launchscreen.png */,
+				B48299B31B71C61D006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
+				B48299B51B71C63A006A4784 /* 2765da53cc080d4db2f90224d8a62d86.jpg */,
+				B48299C11B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg */,
+				B48299BF1B735A65006A4784 /* IMG_3263.jpg */,
+				B48299A91B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png */,
+				B48299A71B6E1DE1006A4784 /* LOGO(Black-and-White).png */,
+				B48299B91B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg */,
+				B48299B71B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg */,
+				B48299BB1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg */,
+			);
+			name = ImageResource;
+			path = "../AQI Detection.xcodeproj";
+			sourceTree = "<group>";
+		};
+		B4FB0FDA1B75B81000260BDC /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB0FDB1B75B88000260BDC /* VideoPreviewer */,
+			);
+			name = thirdParty;
+			path = "../AQI Detection.xcodeproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,11 +289,13 @@
 				B48299BC1B730D29006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */,
 				B48299BA1B73096C006A4784 /* c817674b97cdbd41a9377fd7396dd35e.jpg in Resources */,
 				B48299C01B735A65006A4784 /* IMG_3263.jpg in Resources */,
+				B4FB0FDC1B75B88000260BDC /* VideoPreviewer in Resources */,
 				B48299B81B7303F8006A4784 /* 260eb8963b7933549285ee6626c05a45.jpeg in Resources */,
 				B48299B21B6F3A35006A4784 /* fa1078eea51362f3d6af655a72081327.jpg in Resources */,
 				B482997E1B6DFD87006A4784 /* LaunchScreen.xib in Resources */,
 				B48299C21B73606F006A4784 /* c505991a4c577ffcc9aa9df25c6df525.jpg in Resources */,
 				B482997B1B6DFD87006A4784 /* Images.xcassets in Resources */,
+				B4FB0FD81B74A37B00260BDC /* IMG_3289.jpg in Resources */,
 				B48299AA1B6E1F9A006A4784 /* LOGO(Black-and-White) 透明.png in Resources */,
 				B48299BE1B73542B006A4784 /* Image 8-6-15 at 11.33 AM.jpg in Resources */,
 			);
